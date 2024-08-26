@@ -53,7 +53,7 @@ st.write(f"Correct Answers: {st.session_state.correct_count}")
 st.write(f"Incorrect Answers: {st.session_state.incorrect_count}")
 
 # Check if the user has reached 30 correct answers
-if st.session_state.correct_count >= 10:
+if st.session_state.correct_count >= 5:
     st.balloons()  # Optional: Show some celebration balloons
     st.success("Congratulations! Level Completed.")
 else:
