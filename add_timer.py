@@ -7,7 +7,7 @@ if 'seconds_left' not in st.session_state:
     st.session_state.seconds_left = 60  # Timer set to 60 seconds
 
 if 'random_numbers' not in st.session_state:
-    st.session_state.random_numbers = (random.randint(0, 9), random.randint(0, 9))
+    st.session_state.random_numbers = (random.randint(2, 9), random.randint(2, 9))
 
 if 'correct_answers' not in st.session_state:
     st.session_state.correct_answers = 0
